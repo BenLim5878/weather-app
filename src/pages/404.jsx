@@ -1,10 +1,10 @@
-import NavBar from "../../components/nav";
-import Page from "../../components/page";
-import PageWrapper from "../../components/pageWrapper";
+import NavBar from "../components/nav";
+import Page from "../components/page";
+import PageWrapper from "../components/pageWrapper";
 import { useEffect, useContext } from "react";
 import { useRouter } from "next/router";
-import { TemperatureMetricContext } from '../../context/temperatureMetricContext';
-import { SavedFavoriteContext } from '../../context/savedFavoriteContext';
+import { TemperatureMetricContext } from '../context/temperatureMetricContext';
+import { SavedFavoriteContext } from '../context/savedFavoriteContext';
 
 function IndexPage() {
 
@@ -43,7 +43,7 @@ function IndexPage() {
                         </defs>
                     </svg>
                     <h1 className="font-inter text-xl text-neutral-100 font-semibold">Page not found</h1>
-                    <p className="font-inter text-lg text-neutral-400 block xs:hidden">Please try from another endpoint</p>
+                    <p className="font-inter text-lg text-neutral-400 block xs:hidden">Please try from another URL links</p>
                     <button onClick={() => { history.back() }} className="mt-5 bg-amber-600 font-inter text-white py-2 px-8 rounded-md transition-all hover:bg-amber-700">
                         <p className="xs:hidden">
                             Back to previous page
