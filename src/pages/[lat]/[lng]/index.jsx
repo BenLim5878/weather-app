@@ -248,7 +248,7 @@ function IndexPage() {
 						<PageWrapper hasDynamicContent={true}>
 							{
 								isWarningShow ?
-									<div className="fixed left-1/2 mt-4 -translate-x-1/2 px-12 py-3 bg-rose-700 rounded-lg font-inter text-neutral-200 transition-all drop-shadow-2xl">You can only save up to 3 favorite locations.</div> :
+									<div className="fixed left-1/2 mt-[4.5rem] xs:mt-[8.25rem] text-center sm:w-auto w-4/5 sm:mt-4 -translate-x-1/2 px-12 py-3 bg-rose-700 rounded-lg font-inter text-neutral-200 transition-all drop-shadow-2xl">You can only save up to 3 favorite locations.</div> :
 									<></>
 							}
 							<div className="flex sm:flex-row flex-col items-start sm:gap-3 mt-10 w-full">
