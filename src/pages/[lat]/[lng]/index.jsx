@@ -365,7 +365,7 @@ function IndexPage() {
 									</div>
 									<div className="flex flex-col mt-12 gap-5">
 										<h2 className="font-inter font-medium text-neutral-300 text-lg">Next 5 Days Forecast</h2>
-										<div className="grid gap-x-8 gap-y-5 xs:grid-cols-1 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5">
+										<div className="grid gap-x-8 gap-y-5 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5">
 											{
 												forecastData ? forecastData.map((forecast) =>
 													<div key={`forecast-${forecast.day}`} className="flex flex-col items-center w-full bg-zinc-800 rounded-lg border border-zinc-700 py-5 px-2">
