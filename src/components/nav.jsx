@@ -103,8 +103,8 @@ export default function NavBar({ hasSearchBar = true }) {
                                     <p className='font-inter text-xs text-neutral-800'>{savedFavouriteCount}</p>
                                 </div>
                                 {
-                                    isSavedFavoriteMenuShown ?
-                                        <div className='absolute bg-zinc-800 rounded-lg border border-zinc-700 flex flex-col mt-5 sm:-ml-64 sm:left-0 sm:translate-x-0 -left-1/2 -translate-x-1/2 xs:translate-x-0 xs:-left-[173px]'>
+                                    (isSavedFavoriteMenuShown && (savedFavouriteCount > 0)) ?
+                                        <div className={`absolute bg-zinc-800 rounded-lg border border-zinc-700 flex flex-col mt-5 sm:-ml-64 sm:left-0 sm:translate-x-0 -left-1/2 -translate-x-1/2 xs:translate-x-0 xs:-left-[173px]`}>
                                             {
                                                 savedFavorite.map((location) =>
                                                     <Link key={`${location.lat}/${location.lng}`} href={`/${location.lat}/${location.lng}`}>
