@@ -1,5 +1,5 @@
-# weather-app
 ## Introduction
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/77265089/286743055-6464f102-65d7-49e2-afc0-a5ab98a76cb4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231129T211001Z&X-Amz-Expires=300&X-Amz-Signature=3587ba36f619f6bee34f19febc75a9c73c0d54ef228c33e856f81df27bc46073&X-Amz-SignedHeaders=host&actor_id=77265089&key_id=0&repo_id=725283277"/>
 This is a sample React application that showcases a user-friendly interface to display weather information. It's designed to demonstrate my skills in building React applications and working with external APIs.
 ## Features
 - Weather data display.
