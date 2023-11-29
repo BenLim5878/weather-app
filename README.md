@@ -1,5 +1,7 @@
-# weather-app
 ## Introduction
+
+![image](https://github.com/BenLim5878/weather-app/assets/77265089/7d3c945f-c9cf-4308-8f5e-81283ee1eff2)
+
 This is a sample React application that showcases a user-friendly interface to display weather information. It's designed to demonstrate my skills in building React applications and working with external APIs.
 ## Features
 - Weather data display.
